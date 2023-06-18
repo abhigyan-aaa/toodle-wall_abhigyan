@@ -1,0 +1,174 @@
+.logo{
+    height: 50px;
+}
+
+.boards{
+    width: 100%;
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.board>* :nth-child(n+4){
+  flex: 0 0 calc(33.33% - 10px);
+  margin: 5px;
+}
+.allPosts{
+  width: 100%;
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.board>* :nth-child(n+4) {
+  flex: 0 0 calc(33.33% - 10px);
+  margin: 5px;
+}
+.postCard{
+  height: 100%;
+  border: 1px solid rgb(166, 161, 161);
+  border-radius: 5px 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin: 5px;
+  padding: 2%;
+}
+.postCard>* :nth-child(n+4) {
+  flex: 0 0 calc(33.33% - 10px);
+  margin: 5px;
+}
+/* .postCard p{
+overflowWrap: "break-word"
+} */
+
+.board{
+    border: 1px solid rgb(166, 161, 161);
+    border-radius: 5px 5px;
+    width: 30%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.board_left{
+  width: 25%;
+  background-color: aqua;
+}
+.board_right{
+  width: 72%;
+}
+.board_option{
+    width: 3%;
+    margin-left: 2px;
+}
+
+.my_board_nav {
+  display: flex;
+  width: 100%;
+}
+
+.my_board_back {
+  width: 5%;
+  margin: auto;
+}
+
+.my_board_logo {
+  width: 5%;
+  margin: auto;
+}
+
+.my_board_logo img {
+  width: 100%;
+}
+
+.my_board_title {
+  width: 75%;
+  margin-top: auto;
+
+}
+
+.my_board_icon {
+  width: 15%;
+
+  display: flex;
+  margin: auto;
+}
+
+.my_board_icon i {
+  margin: auto;
+}
+
+.my_board_screen_title{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.my_board_screen_title h1{
+  width: 80%;
+  margin: auto;
+}
+.my_board_screen_title button{
+  width: 15%;
+}
+.my_board_screen_content{
+  width: 100%;
+}
+.my_board_screen_img{
+  margin: 0 40%;
+}
+.desc{
+  font-size: 15px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.card ul li {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card ul li:hover {
+  transform: scale(1.1);
+}
+
+#red {
+  background-color: #ef5350;
+}
+
+#green {
+  background-color: #66bb6a;
+}
+
+#amber {
+  background-color: #ffca28;
+}
+
+#blue {
+  background-color: #42a5f5;
+}
+
+#gray {
+  background-color: #bdbdbd;
+}
+
+/* Color selected styles */
+input[type='radio'] {
+  -webkit-appearance: none;
+}
+
+.dropdown-menu show{
+  position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 40.8px, 0px);
+}
